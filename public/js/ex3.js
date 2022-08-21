@@ -1,7 +1,7 @@
 function timeConverter() {
     let time = prompt("Please Enter Time");
     let result;
-    while (isNaN(time) || time < 0 || time > 24) {
+    while (isNaN(time) || time < 0 || time > 23) {
         alert("please enter valid time");
         time = prompt("Please Enter Time");
     } // time validation
